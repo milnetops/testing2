@@ -1,4 +1,5 @@
 #connect to multiple sharepoint sites and add to explorer.
+#added comment
 Import-Module Sharegate
 $csvFile = "C:\Temp\allsharepointsites.csv"
 $table = Import-Csv $csvFile
